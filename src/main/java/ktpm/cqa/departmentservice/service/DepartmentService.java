@@ -1,7 +1,7 @@
-package ktpm.cqa.deparmentservice.service;
+package ktpm.cqa.departmentservice.service;
 
-import ktpm.cqa.deparmentservice.entity.Department;
-import ktpm.cqa.deparmentservice.repository.DepartmentRepository;
+import ktpm.cqa.departmentservice.entity.Department;
+import ktpm.cqa.departmentservice.repository.DepartmentRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,13 +11,14 @@ import org.springframework.stereotype.Service;
 public class DepartmentService {
     @Autowired
     private DepartmentRepository repository;
-
+    /*Add department*/
     public Department saveDepartment(Department department) {
         log.info("Inside saveKhoa of Service!");
         return repository.saveAndFlush(department);
     }
 
-    public Department findKhoaById(Long departmentId) {
+    /*Find department by id*/
+    public Department findDepartmentById(Long departmentId) {
         log.info("Inside findDepartmentId");
         return repository.findById(departmentId).get();
     }

@@ -1,4 +1,4 @@
-package ktpm.cqa.deparmentservice;
+package ktpm.cqa.departmentservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

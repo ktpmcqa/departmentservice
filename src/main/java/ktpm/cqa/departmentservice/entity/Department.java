@@ -1,4 +1,4 @@
-package ktpm.cqa.deparmentservice.entity;
+package ktpm.cqa.departmentservice.entity;
 
 
 import lombok.AllArgsConstructor;

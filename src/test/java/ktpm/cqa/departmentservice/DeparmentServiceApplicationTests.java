@@ -1,4 +1,4 @@
-package ktpm.cqa.deparmentservice;
+package ktpm.cqa.departmentservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

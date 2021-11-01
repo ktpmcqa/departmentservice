@@ -1,6 +1,6 @@
-package ktpm.cqa.deparmentservice.repository;
+package ktpm.cqa.departmentservice.repository;
 
-import ktpm.cqa.deparmentservice.entity.Department;
+import ktpm.cqa.departmentservice.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
